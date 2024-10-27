@@ -17,8 +17,8 @@ consolidando_planilhas/
 ## 🛠️ Pré-requisitos
 Python 3.x instalado.
 Pacotes necessários:
-pandas
-openpyxl (driver para manipulação de arquivos Excel)
+**pandas**
+**openpyxl** (driver para manipulação de arquivos Excel)
 ### Instale as dependências com o comando:
 pip install pandas openpyxl
 
@@ -38,28 +38,28 @@ Assim, o script pode extrair corretamente as informações de 'Segmento' e 'Paí
 O relatório consolidado será salvo como Report-consolidado-DD-MM-AA.xlsx.
 
 ### Verifique erros:
-Se algum problema ocorrer, consulte o arquivo log_erros.txt.
+Se algum problema ocorrer, consulte o arquivo **log_erros.txt**.
 
 ## 📊 Estrutura do Relatório Consolidado
 O relatório terá as seguintes colunas:
 
-Coluna	Descrição
-Segmento,
-País,
-Produto,
-Qtde de Unidades Vendidas,
-Preço Unitário,
-Valor Total,
-Desconto,
-Valor Total c/ Desconto,
-Custo Total,
-Lucro,
-Data,  
-Mês,   
-Ano.
+- Descrição
+- Segmento,
+- País,
+- Produto,
+- Qtde de Unidades Vendidas,
+- Preço Unitário,
+- Valor Total,
+- Desconto,
+- Valor Total c/ Desconto,
+- Custo Total,
+- Lucro,
+- Data,  
+- Mês,   
+- Ano.
 
 ## ⚠️ Tratamento de Erros
-Arquivos inválidos: Arquivos que não são .xlsx serão ignorados e registrados no log_erros.txt.
+Arquivos inválidos: Arquivos que **não são .xlsx serão ignorados e registrados no log_erros.txt.**
 Erro de leitura: Problemas na leitura de arquivos válidos também serão registrados no log.
 
 ## 📁 Exemplo de Uso
