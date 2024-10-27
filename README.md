@@ -43,7 +43,6 @@ Se algum problema ocorrer, consulte o arquivo **log_erros.txt**.
 ## 📊 Estrutura do Relatório Consolidado
 O relatório terá as seguintes colunas:
 
-- Descrição
 - Segmento,
 - País,
 - Produto,
