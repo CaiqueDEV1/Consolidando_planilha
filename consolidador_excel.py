@@ -35,7 +35,6 @@ for excel in arquivos:
         pais = dados_arquivo[1].replace('.xlsx', '')
     
     
-    # print(arquivo) control + ; para comentar
         try:
             df = pd.read_excel(f'consolidando_planilhas\\planilhas\\{excel}')
             df.insert(0, 'Segmento', segmento)
