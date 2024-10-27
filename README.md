@@ -44,19 +44,19 @@ Se algum problema ocorrer, consulte o arquivo log_erros.txt.
 O relatório terá as seguintes colunas:
 
 Coluna	Descrição
-Segmento	Extraído do nome do arquivo
-País	    Extraído do nome do arquivo
-Produto	  Produto registrado na planilha
-Qtde de Unidades Vendidas	Quantidade de unidades vendidas
-Preço Unitário	Valor unitário do produto
-Valor Total	Qtde × Preço Unitário
-Desconto	Desconto aplicado
-Valor Total c/ Desconto	Valor após desconto
-Custo Total	Custo total dos produtos vendidos
-Lucro	  Valor de venda - Custo
-Data	  Data da venda
-Mês	    Mês da venda
-Ano	    Ano da venda
+Segmento,
+País,
+Produto,
+Qtde de Unidades Vendidas,
+Preço Unitário,
+Valor Total,
+Desconto,
+Valor Total c/ Desconto,
+Custo Total,
+Lucro,
+Data,  
+Mês,   
+Ano.
 
 ## ⚠️ Tratamento de Erros
 Arquivos inválidos: Arquivos que não são .xlsx serão ignorados e registrados no log_erros.txt.
